@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+	.header ul {
+	display: none;
+	}
+
+	.contacts {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.contacts img {
+		left: -38px;
+	}
+	
+	.contacts a {
+		margin-right: auto;
+		display: block;
+	}
+
+	.menu__btn {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 772px) {
+	.contact__elements {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.contact__item_one {
+		min-width: 70%;
+	}
+
+	.contact__item_two {
+		min-width: 70%;
+	}
+}
