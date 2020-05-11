@@ -743,6 +743,10 @@ footer {
 	height: 786px;
 }
 
+#contacts-header .arrow__button {
+	margin-top: -120px;
+}
+
 .contact__content {
 	width: 100%;
 	background: #fff;
